@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#header {
+    width: 100%;
+    z-index: 100;
+}
+
+.img_header {
+    width: 100%;
+    height: auto;
+    /* position: relative; */
+}
+
+.textbox {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 25%;
+    height: auto;
+    top: 55%;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+}
+
+.textbox-title {
+    padding: 10px 0;
+    font-size: x-large;
+    border-bottom: 1px solid white;
+}
+
+.textbox-content {
+    padding: 10px 0;
+    font-size: medium;
+}
+
+.btn-textbox {
+    background-color: rgba(60, 179, 113, 0.8);
+    width: 100%;
+    border: none;
+    border-radius: 5;
+    padding: 10px;
+    font-size: medium;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.btn-takeOut {
+    position: absolute;
+    top: 63%;
+    right: 0;
+    margin-right: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 10px;
+    color: white;
+    font-size: medium;
+}
+
+#content {
+    position: static;
+}
+
+#the-app {
+    padding: 40px 30px;
+    background-color: white;
+    position: relative;
+}
+
+#content-app {
+    width: 70%;
+}
+
+.title-app {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.question-app {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.color-green {
+    color: rgba(60, 179, 113, 0.8);
+}
+
+.app-text {
+    line-height: 30px;
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.app-text-inside {
+    font-size: 28px;
+}
+
+.btn-download-app {
+    margin: 10px 0;
+    padding: 10px 40px;
+    border: none;
+    font-size: 20px;
+}
+
+.application {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.img-app {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    top: 0;
+    margin-top: 40px;
+}
+
+#clarity {
+    background-color: rgba(211, 211, 211, 0.5);
+    padding: 40px 30px;
+    position: relative;
+    width: 100%;
+}
+
+#content-clarity {
+    position: absolute;
+    width: 70%;
+    right: 0;
+    top: 0;
+    margin-right: 30px;
+    margin-top: 100px;
+    padding-left: 16px;
+}
+
+.color-blue {
+    color: aqua
+}
+
+.color-red {
+    color: red;
+}
+
+#features {
+    padding: 40px 0;
+    background-color: grey;
+}
+
+.title-features {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    margin: 15px 0;
+}
+
+.content-features {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.listIcon {}
+
+.row {
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 40px 0;
+}
+
+.icon {
+    flex-basis: 25%;
+}
+
+
+.title-icon {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.center-icon i {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-config {
+    font-size: 50px !important;
+    color: white;
+
+    margin-bottom: 10px;
+}
+
+.content-pricing {
+    padding: 70px 30px
+}
+
+.title-pricing {
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.explain-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.table-price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-price {
+    flex-basis: 49.5%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header-price {
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    padding: 15px 0;
+    color: white;
+}
+
+.similar-row {
+    border-top: 1px rgba(210, 215, 211, 1) solid;
+    text-align: center;
+    line-height: 30px;
+    padding: 7px 0;
+}
+
+.big-row {
+    border-top: 1px rgba(210, 215, 211, 1) solid;
+    text-align: center;
+    line-height: 40px;
+    padding: 15px 0;
+}
+
+.first-data {
+    font-weight: bold;
+}
+
+.big-text {
+    font-size: 40px;
+    color: gray;
+}
+
+.btn-download-price {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.content-footer {
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.8);
+    padding: 30px 0;
+}
+
+.list-icon-footer {
+    margin-bottom: 10px;
+}
+
+.link {
+    color: black;
+}

@@ -1,0 +1,106 @@
+@media only screen and (max-width:740px) {
+    #header {
+        position: relative;
+    }
+
+    .img_header {
+        margin-top: 7%;
+        z-index: 1;
+        position: relative;
+    }
+
+
+    .textbox {
+        width: 100%;
+        top: 0%;
+        margin: 0;
+        padding: 0;
+        z-index: -1;
+        border: none;
+    }
+
+    .textbox-title {
+        display: none;
+    }
+
+    .textbox-content {
+        display: none;
+    }
+
+    .btn-textbox {
+        position: absolute;
+        z-index: 2;
+        top: -1%;
+        right: 0%;
+        background-color: yellowgreen;
+    }
+
+    .btn-takeOut {
+        top: auto;
+        bottom: -8%;
+        z-index: 1;
+        width: 100%;
+        padding: 5px 0;
+        margin: 0;
+        background-color: black;
+    }
+
+    #the-app {
+        position: static;
+    }
+
+    #content-app {
+        width: 100%;
+        padding-right: 30px;
+    }
+
+    .img-app {
+        position: static;
+        width: 100%;
+    }
+
+    .title-app {
+        margin-top: 40px;
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+
+    .question-app {
+        font-weight: bold;
+        font-size: 37px;
+        margin: 30px 0;
+    }
+
+    .app-text {
+        line-height: 30px;
+        margin: 30px 0;
+        font-size: 15px;
+    }
+
+    .app-text-inside {
+        font-size: 25px;
+    }
+
+    .btn-download-app {
+        margin: 0px;
+        padding: 10px 40px;
+    }
+
+    #content-clarity {
+        position: static;
+        width: 100%;
+    }
+
+    .img-clarity {
+        position: static;
+        width: 100%;
+    }
+
+    .table-price {
+        display: block;
+    }
+
+    .col-price {
+        margin-bottom: 40px;
+    }
+}
